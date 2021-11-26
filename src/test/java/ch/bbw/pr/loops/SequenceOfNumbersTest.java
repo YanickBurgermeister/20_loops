@@ -70,7 +70,7 @@ public class SequenceOfNumbersTest extends TestCase {
    public void testKubik1to10() {
       System.out.println("SequenceOfNumbersTest.kubik1to10");
       List<Integer> list = testee.kubik1to10();
-      List<Integer> pattern = Arrays.asList(0, 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000);
+      List<Integer> pattern = Arrays.asList(1, 8, 27, 64, 125, 216, 343, 512, 729, 1000);
 
       System.out.println("soll:"+ pattern);
       System.out.println("ist:"+ list);
