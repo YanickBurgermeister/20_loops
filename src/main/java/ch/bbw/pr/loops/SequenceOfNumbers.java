@@ -20,6 +20,9 @@ public class SequenceOfNumbers {
       //hier loop ergänzen
       //for ....
           //list.add ...
+      for(int zahl = 1 ; zahl <= 5 ; zahl++){
+         list.add(zahl * zahl);
+      }
       return list;
    }
 
@@ -29,6 +32,11 @@ public class SequenceOfNumbers {
       //hier loop ergänzen
       //while ....
           //list.add ...
+      int zahl = 5;
+      while(zahl <= 10){
+         list.add(zahl * zahl);
+         zahl++;
+      }
       return list;
    }
 
@@ -39,6 +47,11 @@ public class SequenceOfNumbers {
       //do
       //list.add ...
           //while ....
+      int zahl = 10;
+      do{
+         list.add(zahl * zahl);
+         zahl++;
+      }while(zahl <= 15);
       return list;
    }
 
@@ -49,6 +62,11 @@ public class SequenceOfNumbers {
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
          //list.add ...
+      int zahl = 1;
+      while(zahl * zahl > 0 && zahl * zahl < 1000){
+         list.add(zahl * zahl);
+         zahl++;
+      }
       return list;
    }
 
@@ -59,6 +77,11 @@ public class SequenceOfNumbers {
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
          //list.add ...
+      int zahl = 1;
+      while(zahl <= 10){
+         list.add(zahl * zahl * zahl);
+         zahl++;
+      }
       return list;
    }
 }
