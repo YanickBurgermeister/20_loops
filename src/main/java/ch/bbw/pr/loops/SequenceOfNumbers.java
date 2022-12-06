@@ -63,7 +63,7 @@ public class SequenceOfNumbers {
       //hier loop ergänzen
          //list.add ...
       int zahl = 1;
-      while(zahl * zahl > 0 && zahl * zahl < 1000){
+      while(zahl * zahl >= 1 && zahl * zahl <= 1000){
          list.add(zahl * zahl);
          zahl++;
       }
