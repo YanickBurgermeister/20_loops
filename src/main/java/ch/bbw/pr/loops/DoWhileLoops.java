@@ -20,6 +20,11 @@ public class DoWhileLoops {
       //do ....
           //list.add ...
       //while ...
+      int zahl = 0;
+      do{
+         list.add(zahl);
+         zahl++;
+      }while(zahl <= 20);
       return list;
    }
 
@@ -27,6 +32,11 @@ public class DoWhileLoops {
    public List<Integer> doWhile25to50(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 25;
+      do{
+         list.add(zahl);
+         zahl++;
+      }while(zahl <= 50);
       return list;
    }
 
@@ -34,6 +44,11 @@ public class DoWhileLoops {
    public List<Integer> doWhileM25to25(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = -25;
+      do{
+         list.add(zahl);
+         zahl++;
+      }while(zahl <= 25);
       return list;
    }
 
@@ -41,6 +56,11 @@ public class DoWhileLoops {
    public List<Integer> doWhile4er4to40(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 4;
+      do{
+         list.add(zahl);
+         zahl += 4;
+      }while(zahl <= 40);
       return list;
    }
 
@@ -48,6 +68,11 @@ public class DoWhileLoops {
    public List<Integer> doWhile9er9to81(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 9;
+      do{
+         list.add(zahl);
+         zahl += 9;
+      }while(zahl <= 81);
       return list;
    }
 
@@ -55,6 +80,11 @@ public class DoWhileLoops {
    public List<Integer> doWhile11er44to121(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 44;
+      do{
+         list.add(zahl);
+         zahl += 11;
+      }while(zahl <= 121);
       return list;
    }
 
@@ -62,6 +92,11 @@ public class DoWhileLoops {
    public List<Integer> doWhile8er96to16(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 96;
+      do{
+         list.add(zahl);
+         zahl -= 8;
+      }while(zahl >= 16);
       return list;
    }
 
@@ -69,6 +104,11 @@ public class DoWhileLoops {
    public List<Integer> doWhile25er400to100(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 400;
+      do{
+         list.add(zahl);
+         zahl -= 25;
+      }while(zahl >= 100);
       return list;
    }
 
@@ -76,6 +116,11 @@ public class DoWhileLoops {
    public List<Integer> doWhile13er2197to2028(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 2197;
+      do{
+         list.add(zahl);
+         zahl -= 13;
+      }while(zahl >= 2028);
       return list;
    }
 }

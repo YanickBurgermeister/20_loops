@@ -19,6 +19,11 @@ public class WhileLoops {
       //hier loop ergänzen
       //while ....
           //list.add ...
+      int zahl = 0;
+      while(zahl <= 20){
+         list.add(zahl);
+         zahl++;
+      }
       return list;
    }
 
@@ -26,6 +31,11 @@ public class WhileLoops {
    public List<Integer> while25to50(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 25;
+      while(zahl <= 50){
+         list.add(zahl);
+         zahl++;
+      }
       return list;
    }
 
@@ -33,6 +43,11 @@ public class WhileLoops {
    public List<Integer> whileM25to25(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = -25;
+      while(zahl <= 25){
+         list.add(zahl);
+         zahl++;
+      }
       return list;
    }
 
@@ -40,6 +55,11 @@ public class WhileLoops {
    public List<Integer> while4er4to40(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 4;
+      while(zahl <= 40){
+         list.add(zahl);
+         zahl += 4;
+      }
       return list;
    }
 
@@ -47,6 +67,11 @@ public class WhileLoops {
    public List<Integer> while9er9to81(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 9;
+      while(zahl <= 81){
+         list.add(zahl);
+         zahl += 9;
+      }
       return list;
    }
 
@@ -54,6 +79,11 @@ public class WhileLoops {
    public List<Integer> while11er44to121(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 44;
+      while(zahl <= 121){
+         list.add(zahl);
+         zahl += 11;
+      }
       return list;
    }
 
@@ -61,6 +91,11 @@ public class WhileLoops {
    public List<Integer> while8er96to16(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 96;
+      while(zahl >= 16){
+         list.add(zahl);
+         zahl -= 8;
+      }
       return list;
    }
 
@@ -68,6 +103,11 @@ public class WhileLoops {
    public List<Integer> while25er400to100(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 400;
+      while(zahl >= 100){
+         list.add(zahl);
+         zahl -= 25;
+      }
       return list;
    }
 
@@ -75,6 +115,11 @@ public class WhileLoops {
    public List<Integer> while13er2197to2028(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      int zahl = 2197;
+      while(zahl >= 2028){
+         list.add(zahl);
+         zahl -= 13;
+      }
       return list;
    }
 }
