@@ -8,7 +8,7 @@ import java.util.List;
  *   Methoden gemäss Anforderung implementieren.
  *   Unittest ausführen.
  * @author Peter Rutschmann
- * @author <hier Ihren Namen eintragen>
+ * @author Yanick Burgermeister
  * @version 05.11.2021
  */
 public class ForLoops {
@@ -19,6 +19,9 @@ public class ForLoops {
       //hier loop ergänzen
       //for ....
           //list.add ...
+      for(int zahl = 1 ; zahl <= 50 ; zahl++) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -26,6 +29,9 @@ public class ForLoops {
    public List<Integer> for0to30(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 0 ; zahl <= 30 ; zahl++) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -33,6 +39,9 @@ public class ForLoops {
    public List<Integer> for50to100(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 50 ; zahl <= 100 ; zahl++) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -40,6 +49,9 @@ public class ForLoops {
    public List<Integer> for40to0(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 40 ; zahl >= 0 ; zahl--) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -47,6 +59,9 @@ public class ForLoops {
    public List<Integer> for200to180(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 200 ; zahl >= 180 ; zahl--) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -54,6 +69,9 @@ public class ForLoops {
    public List<Integer> for2er2to20(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 2 ; zahl <= 20 ; zahl += 2) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -61,6 +79,9 @@ public class ForLoops {
    public List<Integer> for7er7to70(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 7 ; zahl <= 70 ; zahl += 7) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -68,6 +89,9 @@ public class ForLoops {
    public List<Integer> for12er60to120(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 60 ; zahl <= 120 ; zahl += 12) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -75,6 +99,9 @@ public class ForLoops {
    public List<Integer> for5er125to0(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 125 ; zahl >= 0 ; zahl -= 5) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -82,6 +109,9 @@ public class ForLoops {
    public List<Integer> for25er600to200(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 600 ; zahl >= 200 ; zahl -= 25) {
+         list.add(zahl);
+      }
       return list;
    }
 
@@ -89,6 +119,9 @@ public class ForLoops {
    public List<Integer> for13er2197to2028(){
       List<Integer> list = new ArrayList<>();
       //hier loop ergänzen
+      for(int zahl = 2197 ; zahl >= 2028 ; zahl -= 13) {
+         list.add(zahl);
+      }
       return list;
    }
 }

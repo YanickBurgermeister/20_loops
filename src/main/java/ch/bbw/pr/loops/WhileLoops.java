@@ -8,7 +8,7 @@ import java.util.List;
  *   Methoden gemäss Anforderung implementieren.
  *   Unittest ausführen.
  * @author Peter Rutschmann
- * @author <hier Ihren Namen eintragen>
+ * @author Yanick Burgermeister
  * @version 05.11.2021
  */
 public class WhileLoops {
